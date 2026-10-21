@@ -1,5 +1,5 @@
 
-const games = require("../src/data/games");
+const games = require("../data/games");
 
 function getAllGames() {
   return games;

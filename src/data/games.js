@@ -1,23 +1,22 @@
-
 const games = [
   {
     id: 1,
-    nombre: "Minecraft",
-    plataforma: "PC",
-    genero: "Aventura"
+    title: 'The Legend of Zelda',
+    genre: 'Aventura',
+    platform: 'Switch'
   },
   {
     id: 2,
-    nombre: "Mario Kart 8",
-    plataforma: "Nintendo Switch",
-    genero: "Carreras"
+    title: 'Minecraft',
+    genre: 'Sandbox',
+    platform: 'Multiplataforma'
   },
   {
     id: 3,
-    nombre: "FIFA",
-    plataforma: "PlayStation",
-    genero: "Deportes"
+    title: 'Valorant',
+    genre: 'Shooter',
+    platform: 'PC'
   }
 ];
 
-module.exports = games;
+export default games;
